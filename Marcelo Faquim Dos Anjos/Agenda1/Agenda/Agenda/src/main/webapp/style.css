@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --primary:white;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	color: var(--primary);
+}
+
+.Caixa1{
+	width: 320px;
+}
+.Caixa2{
+	width: 320px;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--bg-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Botão1{
+	margin-left: auto;
+	margin-right: 50px;
+	
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 5px;
+	padding: 25px;
+	box-shadow: 0px 0px 5px 5px rgba(0, 159, 253, 0.5);
+}
+
+.home-icon {
+	font-size: 128px;
+	background: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.home-title {
+	margin-top: 50px;
+	color: var(--text-color);
+}
+
+.home-button {
+	text-decoration: none;
+	border: none;
+	width: 110px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--text-secondary);
+	text-transform: uppercase;
+	text-weight: bold;
+	background: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+	border-radius: 10px;
+	transition: 0.2s ease;
+	margin-top: 50px;
+}
+
+.home-button:hover {
+	transform: scale(1.05);
+}
+
+.home-button:active {
+	font-size: 15px;
+}
+
+
+#tabela th{
+	
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: white;
+	color: black;
+}
+
+#caixa03{
+	padding:5px;
+	margin-bottom:10px;
+	border: 1px solid;
+	
+}

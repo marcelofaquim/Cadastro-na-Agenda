@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+	<link rel="icon" href="imagens/fone.png">
+	
+</head>
+<body>
+		<div class="container">
+		<img alt="" src="imagens/agenda.png">
+		<h1 class="home-title">Criar novo contato</h1>
+		<form name="frmContato" action="inserir" >
+		<table class="camp">
+			<tr>
+			<td><input type="text" name="nome" placeholder="Name" class="Caixa1"></td>
+			<tr>
+			<td><input type="text" name="fone" placeholder="fone" class="Caixa2"></td>
+			<tr>
+			<td><input type="text" name="email" placeholder="email" class="Caixa1"></td>
+			<tr>
+			<td><input type="text" name="obs" placeholder="obs" class="Caixa1"></td>
+			
+		</table>
+		
+		<input type="submit" value="Adicionar" class="botao1" onclick="validar()">
+	</form>
+	
+	<script src="scripts/Validador.js"></script>
+		
+	</div>
+</body>
+</html>
